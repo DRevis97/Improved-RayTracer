@@ -154,11 +154,11 @@ void cornell_box(Hitable** scene, Camera** cam, float aspect)
 	list[i++] = new flip_normals(new xz_rect(0, 555, 0, 555, 555, white));
 	list[i++] = new xz_rect(0, 555, 0, 555, 0, white);
 	list[i++] = new flip_normals(new xy_rect(0, 555, 0, 555, 555, white));
-	//Material* glass = new dielectric(1.5);
-	list[i++] = new translate(new rotate_y(new Box(vec3(0, 0, 0), vec3(165, 165, 165), white), -18), vec3(130, 0, 65));
-	Material* aluminum = new Metal(vec3(0.8, 0.85, 0.88), 0.0);
-	//list[i++] = new Sphere(vec3(190, 90, 190), 90, white);
-	list[i++] = new translate(new rotate_y(new Box(vec3(0, 0, 0), vec3(165, 330, 165), aluminum), 15), vec3(265, 0, 295));
+	Material* glass = new dielectric(1.5);
+	//list[i++] = new translate(new rotate_y(new Box(vec3(0, 0, 0), vec3(165, 165, 165), white), -18), vec3(130, 0, 65));
+	//Material* aluminum = new Metal(vec3(0.8, 0.85, 0.88), 0.0);
+	list[i++] = new Sphere(vec3(190, 90, 190), 90, glass);
+	list[i++] = new translate(new rotate_y(new Box(vec3(0, 0, 0), vec3(165, 330, 165), white), 15), vec3(265, 0, 295));
 	*scene = new HitableList(list, i);
 	vec3 lookfrom(278, 278, -800);
 	vec3 lookat(278, 278, 0);
@@ -254,10 +254,10 @@ int main()
 	cornell_box(&world, &cam, aspect);
 	Hitable* light_shape = new xz_rect(213, 343, 227, 332, 554, 0);
 	Hitable* glass_sphere = new Sphere(vec3(190, 90, 190), 90, 0);
-	Hitable* a[1];
+	Hitable* a[2];
 	a[0] = light_shape;
-	//a[1] = glass_sphere;
-	HitableList hlist(a, 1);
+	a[1] = glass_sphere;
+	HitableList hlist(a, 2);
 	for (int i = ny - 1; i >= 0; i--)
 	{
 		for (int j = 0; j < nx; j++)

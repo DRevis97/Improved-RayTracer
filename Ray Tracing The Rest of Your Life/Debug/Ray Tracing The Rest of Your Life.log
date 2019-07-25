@@ -20,8 +20,8 @@ C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\pdf.h(98,39): warnin
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Sphere.h(12,37): warning C4305:  'initializing': truncation from 'double' to 'float'
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Sphere.h(13,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Sphere.h(14,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Sphere.h(80,37): warning C4305:  'initializing': truncation from 'double' to 'float'
-C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Sphere.h(81,5): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Sphere.h(82,37): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Sphere.h(83,5): warning C4305:  'argument': truncation from 'double' to 'float'
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\HitableList.h(36,30): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\HitableList.h(72,15): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Material.h(35,21): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
@@ -74,7 +74,6 @@ C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Main.cpp(106,120): w
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Main.cpp(146,74): warning C4305:  'argument': truncation from 'double' to 'float'
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Main.cpp(147,76): warning C4305:  'argument': truncation from 'double' to 'float'
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Main.cpp(148,76): warning C4305:  'argument': truncation from 'double' to 'float'
-C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Main.cpp(159,53): warning C4305:  'argument': truncation from 'double' to 'float'
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Main.cpp(174,74): warning C4305:  'argument': truncation from 'double' to 'float'
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Main.cpp(175,76): warning C4305:  'argument': truncation from 'double' to 'float'
 C:\Graphics\Ray Tracing 3\Ray Tracing The Rest of Your Life\Main.cpp(176,76): warning C4305:  'argument': truncation from 'double' to 'float'

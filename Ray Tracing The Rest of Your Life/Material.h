@@ -185,7 +185,7 @@ class dielectric : public Material
 	public:
 		float ref_idx;
 		dielectric(float ri) : ref_idx(ri) {}
-		virtual bool scatter(const ray& r_in, const hit_record& hrec, scatter_record& srec) const {
+		virtual bool Scatter(const ray& r_in, const hit_record& hrec, scatter_record& srec) const {
 			srec.is_specular = true;
 			srec.pdf_ptr = 0;
 			srec.attenuation = vec3(1.0, 1.0, 1.0);
